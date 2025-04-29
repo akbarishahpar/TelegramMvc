@@ -30,6 +30,7 @@ public class AttachmentsController : TelegramController
             return TelegramVideo(InputFile.FromFileId(message.Video.FileId));
         if (message.Document != null)
             return TelegramDocument(InputFile.FromFileId(message.Document.FileId));
+        
         return TelegramMessage("UnsupportedAttachment");
     }
 }
