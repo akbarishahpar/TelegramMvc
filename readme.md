@@ -1,3 +1,7 @@
+![img](https://raw.githubusercontent.com/akbarishahpar/TelegramMvc/refs/heads/main/Logo.png)
+
+
+
 # TelegramMvc
 
 **TelegramMvc** is a lightweight, modular framework for building **Telegram bots** in **.NET**, inspired by the **Model-View-Controller (MVC)** pattern.
