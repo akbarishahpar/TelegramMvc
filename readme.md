@@ -1,4 +1,4 @@
-<center><img src="https://raw.githubusercontent.com/akbarishahpar/TelegramMvc/refs/heads/main/Logo.png" /></center>
+<p align="center"><img src="https://raw.githubusercontent.com/akbarishahpar/TelegramMvc/refs/heads/main/Logo.png" /></p>
 
 
 
