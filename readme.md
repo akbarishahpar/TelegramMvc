@@ -95,13 +95,16 @@ In the **`appsettings.json`** file, add your bot’s token and webhook URL.
   "BotSettings": {
       "Token": "YOUR_BOT_TOKEN",
       "WebhookEndpoint": "https://yourserver.com/",
-	  // optional: If you provide this field, your controllers and views will be organized under a specified area.
+
+      // optional: If you provide this field, your controllers and views will be organized under a specified area.
       "AreaName": "/bot",
-	  // optional: omit to disable rate limiting
+
+      // optional: omit to disable rate limiting
       "RateLimitSettings": {
         "Message": "Don't rush honey!😅",
         "DelayBetweenRequestsInSeconds": 1
       },
+
       // optional: allows telegram bot client to connect telegram servers using http proxy
       "ProxySettings": {
           "Server": "localhost",
