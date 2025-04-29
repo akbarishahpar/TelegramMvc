@@ -1,4 +1,4 @@
-![img](https://raw.githubusercontent.com/akbarishahpar/TelegramMvc/refs/heads/main/Logo.png)
+<center><img src="https://raw.githubusercontent.com/akbarishahpar/TelegramMvc/refs/heads/main/Logo.png" /></center>
 
 
 
