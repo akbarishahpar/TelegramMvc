@@ -144,16 +144,16 @@ namespace TelegramMvc.Controllers
             => TelegramView(new TelegramRedirect(path));
 
         public TelegramView TelegramRedirectToAction(string action)
-            => TelegramView(new TelegramRedirect(Url.Action(action)));
+            => TelegramView(new TelegramRedirect(Url.Action(action).EmptyIfNull()));
 
         public TelegramView TelegramRedirectToAction(string action, object values)
-            => TelegramView(new TelegramRedirect(Url.Action(action, values)));
+            => TelegramView(new TelegramRedirect(Url.Action(action, values).EmptyIfNull()));
 
         public TelegramView TelegramRedirectToAction(string action, string controller)
-            => TelegramView(new TelegramRedirect(Url.Action(action, controller)));
+            => TelegramView(new TelegramRedirect(Url.Action(action, controller).EmptyIfNull()));
 
         public TelegramView TelegramRedirectToAction(string action, string controller, object values)
-            => TelegramView(new TelegramRedirect(Url.Action(action, controller, values)));
+            => TelegramView(new TelegramRedirect(Url.Action(action, controller, values).EmptyIfNull()));
 
         #endregion
 

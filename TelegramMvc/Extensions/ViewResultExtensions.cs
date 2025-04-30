@@ -15,14 +15,14 @@ public static class ViewResultExtensions
         using var output = new StringWriter(builder);
 
         var routeData = controllerContext.RouteData;
-        var viewName = result.ViewName ?? routeData.Values["action"] as string;
+        var viewName = (result.ViewName ?? routeData.Values["action"] as string)!;
         var options = httpContext.RequestServices.GetRequiredService<IOptions<MvcViewOptions>>();
         var htmlHelperOptions = options.Value.HtmlHelperOptions;
         var viewEngineResult = result.ViewEngine?.FindView(controllerContext, viewName, true) ??
                                options.Value.ViewEngines.Select(x => x.FindView(controllerContext, viewName, true))
-                                   .FirstOrDefault(x => x != null);
+                                   .FirstOrDefault();
 
-        var view = viewEngineResult!.View;
+        var view = viewEngineResult!.View!;
 
         var viewContext = new ViewContext(controllerContext, view, result.ViewData, result.TempData, output,
             htmlHelperOptions);
