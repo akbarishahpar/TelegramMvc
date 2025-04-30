@@ -1,6 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
+    <PackageId>TelegramMvc</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>akbarishahpar</Authors>
+    <Company>akbarishahpar</Company>
+    <Description>Simplify Telegram bot development without sacrificing power and flexibility.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
