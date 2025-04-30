@@ -2,13 +2,18 @@
 
   <PropertyGroup>
     <PackageId>TelegramMvc</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
+    <PackageVersion>1.0.1</PackageVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <Authors>akbarishahpar</Authors>
     <Company>akbarishahpar</Company>
     <Description>Simplify Telegram bot development without sacrificing power and flexibility.</Description>
+    <PackageTags>Telegram Bot Mvc Web TelegramMvc</PackageTags>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/akbarishahpar/TelegramMvc</PackageProjectUrl>
     <RepositoryUrl>https://github.com/akbarishahpar/TelegramMvc</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
