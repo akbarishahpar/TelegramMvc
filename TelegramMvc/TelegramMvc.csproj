@@ -6,6 +6,11 @@
     <Authors>akbarishahpar</Authors>
     <Company>akbarishahpar</Company>
     <Description>Simplify Telegram bot development without sacrificing power and flexibility.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/akbarishahpar/TelegramMvc</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/akbarishahpar/TelegramMvc</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup>
