@@ -4,7 +4,7 @@ using Telegram.Bot.Types.Enums;
 using TelegramMvc.Controllers;
 using TelegramMvc.Extensions;
 
-namespace TelegramMvc.Examples.PageNavigationBot.Areas.Bot.Controllers;
+namespace TelegramMvc.Example.Areas.Bot.Controllers;
 
 [Area("Bot")]
 public class ForwardController : TelegramController

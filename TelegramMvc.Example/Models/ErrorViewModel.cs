@@ -1,4 +1,4 @@
-namespace TelegramMvc.Examples.PageNavigationBot.Models
+namespace TelegramMvc.Example.Models
 {
     public class ErrorViewModel
     {

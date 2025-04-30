@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-
-namespace TelegramMvc.Examples.PageNavigationBot.Models;
+﻿namespace TelegramMvc.Example.Models;
 
 public class Ticket
 {

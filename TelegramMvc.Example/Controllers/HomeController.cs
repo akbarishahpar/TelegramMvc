@@ -1,8 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using TelegramMvc.Examples.PageNavigationBot.Models;
+using Microsoft.AspNetCore.Mvc;
+using TelegramMvc.Example.Models;
 
-namespace TelegramMvc.Examples.PageNavigationBot.Controllers
+namespace TelegramMvc.Example.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,11 +14,6 @@ namespace TelegramMvc.Examples.PageNavigationBot.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

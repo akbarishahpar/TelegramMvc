@@ -1,6 +1,6 @@
 using TelegramMvc;
 using TelegramMvc.Contracts;
-using TelegramMvc.Examples.PageNavigationBot;
+using TelegramMvc.Example;
 using TelegramMvc.Models.Settings;
 
 var builder = WebApplication.CreateBuilder(args);

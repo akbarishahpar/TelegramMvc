@@ -3,7 +3,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 using TelegramMvc.Controllers;
 using TelegramMvc.Extensions;
 
-namespace TelegramMvc.Examples.PageNavigationBot.Areas.Bot.Controllers;
+namespace TelegramMvc.Example.Areas.Bot.Controllers;
 
 [Area("Bot")]
 public class TicketsController : TelegramController

@@ -1,6 +1,6 @@
-﻿using TelegramMvc.Examples.PageNavigationBot.Models;
+﻿using TelegramMvc.Example.Models;
 
-namespace TelegramMvc.Examples.PageNavigationBot;
+namespace TelegramMvc.Example;
 
 public class TicketService
 {
