@@ -120,7 +120,7 @@ Replace `YOUR_BOT_TOKEN` with the bot token you get from **@BotFather** on Teleg
 
 
 
-The **AreaName** setting lets you isolate all of your Telegram bot’s controllers and views under a specific URL prefix (for example, “/bot”), keeping them completely separate from the rest of your MVC application. By using an `AreaName`, you can develop and host both traditional web pages—such as control panels, dashboards, or any browser-rendered features—and your Telegram bot logic side by side within the same project, without route conflicts. This clear boundary makes it easy to integrate bot functionality into an existing website or add web-based tools alongside your bot, while keeping your code organized and concerns neatly separated.
+The **AreaName** configuration allows developers to logically partition all Telegram bot controllers and views under a specified URL prefix (e.g., “/bot”), thereby ensuring complete separation from the remainder of the MVC application. Utilizing an `AreaName` enables the simultaneous development and hosting of both conventional web pages—such as administrative panels, dashboards, and other browser-accessible interfaces—and Telegram bot endpoints within a single project, without risk of route conflicts. This clear delineation promotes clean architecture, facilitates maintainability, and supports the seamless integration of bot functionality alongside traditional web components. Additionally, developers are not required to manually prefix URLs or commands with the specified **AreaName** (e.g., `/bot/...`). The Telegram middleware automatically appends the **AreaName** if it is defined in the bot configuration, further simplifying routing and reducing the potential for errors.
 
 
 

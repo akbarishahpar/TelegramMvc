@@ -10,7 +10,7 @@ public class PrivacyController : TelegramController
     public IActionResult Index()
     {
         return TelegramMessage().AddKeyboard(
-            InlineKeyboardButton.WithCallbackData("Home", "/Bot/Start")
+            InlineKeyboardButton.WithCallbackData("Home", "/start")
         );
     }
 }

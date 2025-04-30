@@ -12,7 +12,7 @@ public class AttachmentsController : TelegramController
     public IActionResult Index()
     {
         return GetTelegramView()
-            .AddKeyboard(InlineKeyboardButton.WithCallbackData("Home", "/bot/start"));
+            .AddKeyboard(InlineKeyboardButton.WithCallbackData("Home", "/start"));
     }
 
     private TelegramView GetTelegramView()

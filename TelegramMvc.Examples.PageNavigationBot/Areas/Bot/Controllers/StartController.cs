@@ -11,16 +11,16 @@ public class StartController : TelegramController
     {
         return TelegramMessage().AddKeyboard(new[]
         {
-            new[] { InlineKeyboardButton.WithCallbackData("Submit a ticket", "/Bot/Tickets/Title") },
+            new[] { InlineKeyboardButton.WithCallbackData("Submit a ticket", "/tickets/title") },
             new[]
             {
-                InlineKeyboardButton.WithCallbackData("Test Forward", "/Forward"),
-                InlineKeyboardButton.WithCallbackData("Attachment Replier", "/Attachments"),
+                InlineKeyboardButton.WithCallbackData("Test Forward", "/forward"),
+                InlineKeyboardButton.WithCallbackData("Attachment Replier", "/attachments"),
             },
             new[]
             {
-                InlineKeyboardButton.WithCallbackData("Privacy & Policies", "/Bot/Privacy"),
-                InlineKeyboardButton.WithCallbackData("Contact Us", "/Bot/Contact")
+                InlineKeyboardButton.WithCallbackData("Privacy & Policies", "/privacy"),
+                InlineKeyboardButton.WithCallbackData("Contact Us", "/contact")
             },
         });
     }
